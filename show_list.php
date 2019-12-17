@@ -11,12 +11,11 @@
 
     getListeSeries();
     ?>
-    <link rel="stylesheet" href="favorites_list.css"/>
+    <link rel="stylesheet" href="show_list.css"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Series</title>
 </head>
 <body>
-<table>
     <header>
         <div class="headerDesktop">
             <div class="firstColumn">
@@ -47,6 +46,7 @@
             </div>
         </div>
     </header>
+    <table>
     <?php
     foreach ($_SESSION["shows_json"] as $value):
         ?>
