@@ -4,15 +4,12 @@ if (session_status() == PHP_SESSION_NONE) {
 }
 
 function updateFavorites($title) {
- 
-    foreach($_SESSION["shows_json"]["serie"] as $key => $value)
+    
+    foreach($_SESSION["shows_json"] as $key => $value)
     {
-       // print_r($jsonToModify);
         if($title == $value["titre"])
         {
-            //print_r($jsonToModify);
-            $value["favoris"] == 1 ? $_SESSION["shows_json"]["serie"][$key]["favoris"] = 0 : $_SESSION["shows_json"]["serie"][$key]["favoris"]  = 1;
-     
+            $value["favoris"] == 1 ? $_SESSION["shows_json"][$key]["favoris"] = 0 : $_SESSION["shows_json"][$key]["favoris"] = 1;
         }
     }
 

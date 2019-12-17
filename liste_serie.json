@@ -1,5 +1,5 @@
-{
-	"serie": [{
+[
+	{
 		"titre":"Fairy Tail",
 		"image": "images/fairy_tail.jpg",
 		"type":"Manga",
@@ -71,7 +71,4 @@
 			],
 		"note": 5,
 		"favoris": 0
-	}
-
-]
-}
+	}]
