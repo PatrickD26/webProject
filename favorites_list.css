@@ -17,6 +17,7 @@ body{
 .showLabel{
     text-align: center;
     font-weight: bold;
+    background-color: white;
 }
 @media only screen and (min-width: 768px) {
     .mobileHeader{
@@ -83,4 +84,35 @@ body{
     }
 }
 @media only screen and (max-width: 767px) and (orientation: portrait) {
+    .mobileHeader{
+        display: none;
+    }
+    .headerDesktop{
+        display: flex;
+        color: white;
+    }
+    .headerDesktop .logo{
+        font-size: 3vh;
+        border: 1px solid white;
+        margin-right: 10%;
+    }
+    .headerDesktop .logoLabel{
+        margin: 10px auto;
+        text-align: center;
+    }
+    .headerDesktop .title{
+        font-size: 20px;
+        text-align: center;
+    }
+    .headerDesktop .firstColumn{
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+    }
+    .headerDesktop .secondColumn{
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 20px;
+    }
 }
