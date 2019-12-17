@@ -1,0 +1,30 @@
+body{
+    background-color: #0082C3;
+}
+.mobileHeader{
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    color: white;
+}
+.firstRow{
+    display: flex;
+}
+.logo{
+    font-size: 3vh;
+    width: 65%;
+    border: 1px solid white;
+    padding-right: 10%;
+}
+.logoLabel{
+    margin: 10px auto;
+    text-align: center;
+}
+.secondRow{
+    text-align: center;
+    margin: 10px 0;
+}
+.burger{
+    width: 25%;
+    text-align: center;
+}
