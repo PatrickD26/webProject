@@ -11,8 +11,12 @@
 
 
 <?php
+session_start();
+
 //affichage de la liste des séries
     include_once("liste_serie.php");
+
+    print_r($_SESSION["json"]);
 ?>
 
     
