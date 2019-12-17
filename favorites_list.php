@@ -11,7 +11,7 @@
 
     getListeSeries();
     ?>
-    <link rel="stylesheet" href="main.css"/>
+    <link rel="stylesheet" href="favorites_list.css"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Series</title>
 </head>
