@@ -18,6 +18,19 @@
 <body>
 <table>
     <header>
+        <div class="headerDesktop">
+            <div class="firstColumn">
+                <div class="logo">
+                    <div class="logoLabel">Logo</div>
+                </div>
+                <div class="title">
+                    Mes Favoris
+                </div>
+            </div>
+            <div class="secondColumn">
+                Mes favoris | Consulter la liste des séries |
+            </div>
+        </div>
         <div class="mobileHeader">
             <div class="firstRow">
                 <div class="logo">
@@ -37,9 +50,9 @@
     <?php
     foreach ($_SESSION["shows_json"] as $value):
         ?>
-        <tr>
-            <td><img src="<?php  ?>" alt=""></td>
-            <td><?php printf($value['titre']); ?></td>
+        <tr class="showDescription">
+            <td><img src="<?php echo $value['img']; ?>" alt=""></td>
+            <td class="showLabel"><?php echo $value['titre']; ?></td>
         </tr>
     <?php endforeach; ?>
 
