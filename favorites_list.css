@@ -9,6 +9,7 @@ body{
     border: 2px solid cornflowerblue;
     width: 90%;
     margin: 20px auto;
+    cursor: pointer;
 }
 .showDescription img{
     border-radius: 25px 25px 0 0;
