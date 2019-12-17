@@ -4,6 +4,8 @@ if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
 
+// Chargement des données du json
+// filtre par favoris
 function getListeSeries() {
     $file = file_get_contents('liste_serie.json');
 

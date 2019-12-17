@@ -4,6 +4,8 @@ if (session_status() == PHP_SESSION_NONE) {
 }
 include_once("liste_serie.php");
 
+
+// Ajouter/Retirer une serie des favoris
 function updateFavorites($id) {
     
     foreach($_SESSION["shows_json"] as $key => $value)
@@ -19,6 +21,7 @@ function updateFavorites($id) {
     getListeSeries();
 }
 
+// Mise à jour de la note d'une serie
 function updateNoteSerie($id, $note) {
     foreach($_SESSION["shows_json"] as $key => $value)
     {
