@@ -16,37 +16,37 @@
     <title>Series</title>
 </head>
 <body>
+<header>
+    <div class="headerDesktop">
+        <div class="firstColumn">
+            <div class="logo">
+                <div class="logoLabel">Logo</div>
+            </div>
+            <div class="title">
+                Mes Favoris
+            </div>
+        </div>
+        <div class="secondColumn">
+            Mes favoris | Consulter la liste des séries |
+        </div>
+    </div>
+    <div class="mobileHeader">
+        <div class="firstRow">
+            <div class="logo">
+                <div class="logoLabel">Logo</div>
+            </div>
+            <div class="burger">
+                <i class="material-icons" style="font-size:-webkit-xxx-large">
+                    menu
+                </i>
+            </div>
+        </div>
+        <div class="secondRow">
+            Mes favoris
+        </div>
+    </div>
+</header>
 <table>
-    <header>
-        <div class="headerDesktop">
-            <div class="firstColumn">
-                <div class="logo">
-                    <div class="logoLabel">Logo</div>
-                </div>
-                <div class="title">
-                    Mes Favoris
-                </div>
-            </div>
-            <div class="secondColumn">
-                Mes favoris | Consulter la liste des séries |
-            </div>
-        </div>
-        <div class="mobileHeader">
-            <div class="firstRow">
-                <div class="logo">
-                    <div class="logoLabel">Logo</div>
-                </div>
-                <div class="burger">
-                    <i class="material-icons" style="font-size:-webkit-xxx-large">
-                        menu
-                    </i>
-                </div>
-            </div>
-            <div class="secondRow">
-                Mes favoris
-            </div>
-        </div>
-    </header>
     <?php
     foreach ($_SESSION["shows_json"] as $value):
         ?>

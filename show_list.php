@@ -16,47 +16,53 @@
     <title>Series</title>
 </head>
 <body>
-    <header>
-        <div class="headerDesktop">
-            <div class="firstColumn">
-                <div class="logo">
-                    <div class="logoLabel">Logo</div>
-                </div>
-                <div class="title">
-                    Mes Favoris
-                </div>
+<header>
+    <div class="headerDesktop">
+        <div class="firstColumn">
+            <div class="logo">
+                <div class="logoLabel">Logo</div>
             </div>
-            <div class="secondColumn">
-                Mes favoris | Consulter la liste des séries |
-            </div>
+            <div class="desktopTitle">Liste des séries</div>
         </div>
-        <div class="mobileHeader">
-            <div class="firstRow">
-                <div class="logo">
-                    <div class="logoLabel">Logo</div>
-                </div>
-                <div class="burger">
-                    <i class="material-icons" style="font-size:-webkit-xxx-large">
-                        menu
-                    </i>
-                </div>
-            </div>
-            <div class="secondRow">
-                Mes favoris
-            </div>
+        <div class="secondColumn">
+            Mes favoris | Consulter la liste des séries |
         </div>
-    </header>
-    <table>
-    <?php
-    foreach ($_SESSION["shows_json"] as $value):
-        ?>
-        <tr class="showDescription">
-            <td><img src="<?php echo $value['img']; ?>" alt=""></td>
-            <td class="showLabel"><?php echo $value['titre']; ?></td>
-        </tr>
-    <?php endforeach; ?>
-
-</table>
+    </div>
+    <div class="mobileHeader">
+        <div class="logo">
+            <div class="logoLabel">Logo</div>
+        </div>
+        <div class="burger">
+            <i class="material-icons" style="font-size:-webkit-xxx-large">
+                menu
+            </i>
+        </div>
+    </div>
+</header>
+<div class="tables">
+    <div class="mobileTitle">
+        Liste des séries
+    </div>
+    <table class="mobileTable">
+        <?php
+        foreach ($_SESSION["shows_json"] as $value):
+            ?>
+            <tr class="showDescriptionMobile">
+                <td><?php echo $value['titre']; ?></td>
+            </tr>
+        <?php endforeach; ?>
+    </table>
+    <div class="desktopTable">
+        <?php
+        foreach ($_SESSION["shows_json"] as $value):
+            ?>
+            <div class="showDescriptionDesktop">
+                <img src="<?php echo $value['img']; ?>" alt="<?php $value['titre'] ?>"></>
+                <div class="showLabel"><?php echo $value['titre']; ?></div>
+            </div>
+        <?php endforeach; ?>
+    </div>
+</div>
 
 </body>
 </html>
