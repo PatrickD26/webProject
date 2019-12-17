@@ -16,6 +16,7 @@ function updateFavorites($id) {
 
     file_put_contents('liste_serie.json', json_encode($_SESSION["shows_json"]));
 
+    getListeSeries();
 }
 
 function updateNoteSerie($id, $note) {
@@ -29,5 +30,6 @@ function updateNoteSerie($id, $note) {
 
     file_put_contents('liste_serie.json', json_encode($_SESSION["shows_json"]));
 
+    getListeSeries();
 }
 

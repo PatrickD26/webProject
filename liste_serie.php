@@ -4,23 +4,25 @@ if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
 
-$file = file_get_contents('liste_serie.json');
+function getListeSeries() {
+    $file = file_get_contents('liste_serie.json');
 
-$jsons = json_decode($file, true);
-
-$_SESSION["shows_json"] = $jsons;
+    $jsons = json_decode($file, true);
     
-foreach($_SESSION["shows_json"] as $value)
-{
-    if ($value['favoris'] == 1){
+    $_SESSION["shows_favorites_json"] = [];
+    $_SESSION["shows_json"] = [];
 
-        $_SESSION["shows_favorites_json"][] = $value;
-
-    } else if ($value['favoris'] == 0) {
-
-        $_SESSION["shows_json"][] = $value;
-
+    foreach($jsons as $value)
+    {
+        if ($value['favoris'] == 1){
     
+           array_push($_SESSION["shows_favorites_json"], $value);
+    
+        } else if ($value['favoris'] == 0) {
+    
+            array_push($_SESSION["shows_json"], $value);
+        }
+    }
 }
 
 
