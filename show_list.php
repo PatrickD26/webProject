@@ -25,7 +25,7 @@
             <div class="desktopTitle">Liste des séries</div>
         </div>
         <div class="secondColumn">
-            Mes favoris | Consulter la liste des séries |
+            <?php include_once('header_link.php'); ?>
         </div>
     </div>
     <div class="mobileHeader">
@@ -47,7 +47,7 @@
         <?php
         foreach ($_SESSION["shows_json"] as $value):
             ?>
-            <tr class="showDescriptionMobile">
+            <tr class="showDescriptionMobile" onclick="window.location='detail_serie.php?id=<?php echo $value['id'] ?>'">
                 <td><?php echo $value['titre']; ?></td>
             </tr>
         <?php endforeach; ?>
