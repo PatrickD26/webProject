@@ -54,13 +54,13 @@
     </table>
     <div class="desktopTable">
         <?php
-        foreach ($_SESSION["shows_json"] as $value):
-            ?>
-            <div class="showDescriptionDesktop">
+             foreach ($_SESSION["shows_json"] as $value):
+        ?>
+            <div class="showDescriptionDesktop" onclick="window.location='detail_serie.php?id=<?php echo $value['id'] ?>'">
                 <img src="<?php echo $value['img']; ?>" alt="<?php $value['titre'] ?>"></>
                 <div class="showLabel"><?php echo $value['titre']; ?></div>
             </div>
-        <?php endforeach; ?>
+    <?php endforeach; ?>
     </div>
 </div>
 
