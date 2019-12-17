@@ -1,4 +1,4 @@
-
+[
   {
     "titre": "Fairy Tail",
     "img": "images/fairy_tail.jpg",
@@ -24,7 +24,7 @@
   },
   {
     "titre": "Game of Thrones",
-    "img": "images/fairy_tail.jpg",
+    "img": "images/got.jpg",
     "type": [
       "Médiéval",
       "Fantastique"
@@ -52,7 +52,7 @@
   },
   {
     "titre": "Vikings",
-    "img": "images/fairy_tail.jpg",
+    "img": "images/vikings.jpg",
     "type": [
       "Dramatique",
       "Histoire",

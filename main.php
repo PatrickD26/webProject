@@ -7,7 +7,7 @@
     <?php
     session_start();
     //récupération de la liste des séries
-    include_once("liste_serie.php");
+    require("liste_serie.php");
 
     getListeSeries();
     ?>
