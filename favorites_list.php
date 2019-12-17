@@ -27,7 +27,7 @@
             </div>
         </div>
         <div class="secondColumn">
-            Mes favoris | Consulter la liste des séries |
+            <?php include_once('header_link.php'); ?>
         </div>
     </div>
     <div class="mobileHeader">
@@ -53,7 +53,7 @@
         ?>
             <div class="showDescription" onclick="window.location='detail_serie.php?id=<?php echo $value['id'] ?>'">
                 <img src="<?php echo $value['img']; ?>" alt="<?php $value['titre'] ?>"></>
-                <div class="showLabel"><?php echo $value['titre']; ?></div>
+                <div class="showLabel"><?php echo $value['titre'] . "  " . $value['note'].'/5'; ?></div>
             </div>
     <?php endforeach; ?>
     </div>
