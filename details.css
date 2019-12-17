@@ -12,6 +12,18 @@ body{
     display: flex;
     margin: 1vh;
 }
+.showDescription{
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px 25px 0 0;
+    border: 2px solid cornflowerblue;
+    width: 90%;
+    margin: 20px auto;
+}
+.showDescription img{
+    border-radius: 25px 25px 0 0;
+    max-width: 100%
+}
 @media only screen and (min-width: 768px) {
     .mobileHeader{
         display: none;

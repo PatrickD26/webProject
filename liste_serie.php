@@ -27,4 +27,20 @@ function getListeSeries() {
         }
     }
 }
+
+function getSerieByType($id, $type) {
+    $_SESSION["shows_type"] = [];
+    $file = file_get_contents('liste_serie.json');
+
+    $jsons = json_decode($file, true);
+
+    foreach($jsons as $value)
+    {
+        if ($value['type'] == $type AND $value["id"] != $id){
+    
+           array_push($_SESSION["shows_type"], $value);
+    
+        }
+    }
+};
 ?>

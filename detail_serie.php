@@ -15,6 +15,7 @@ foreach ($_SESSION["shows_all"] as $all) {
     }
 }
 
+getSerieByType($id , $serie["type"]);
 
 ?>
 
@@ -39,7 +40,7 @@ foreach ($_SESSION["shows_all"] as $all) {
                 <div class="desktopTitle">Liste des séries</div>
             </div>
             <div class="secondColumn">
-                Mes favoris | Consulter la liste des séries |
+                <?php include_once('header_link.php'); ?>
             </div>
         </div>
         <div class="mobileHeader">
@@ -58,13 +59,15 @@ foreach ($_SESSION["shows_all"] as $all) {
             <tr>
                 <form method="post">
                     <?php if($serie['favoris'] === 0):  ?>
-                        <button type="submit" name="addFav">Ajouter un favori</button>
+                        <button type="submit" name="addFav" value="envoyer">Ajouter un favori</button>
                     <?php elseif ($serie['favoris'] === 1): ?>
-                        <button type="submit" name="addFav">Enlever un favori</button>
+                        <button type="submit" name="addFav" value="envoyer">Enlever un favori</button>
                     <?php endif ?>
                     <br>
                     <label for="note">Ajouter une note : </label>
-                    <input type="number" name="note" min="0" max="5" placeholder="<?php echo $serie["note"] ?>">
+                    <input type="number" name="note" min="0" max="5" placeholder="<?php echo $serie["note"] . "/5"?>">
+                    <button type="submit" name="noter" value="valider">Valider la note</button>
+
                 </form>
             </tr>
 
@@ -92,16 +95,32 @@ foreach ($_SESSION["shows_all"] as $all) {
 
 
         </table>
+
+    <h3>Séries du même type</h3>
+
+    <table>
+    <div class="desktopTable">
+        <?php
+             foreach ($_SESSION["shows_type"] as $value):
+        ?>
+            <div class="showDescription" onclick="window.location='detail_serie.php?id=<?php echo $value['id'] ?>'">
+                <img src="<?php echo $value['img']; ?>" alt="<?php $value['titre'] ?>"></>
+                <div class="showLabel"><?php echo $value['titre'] ?></div>
+            </div>
+    <?php endforeach; ?>
+    </div>
+    </table>
+
     </div>
     </body>
     </html>
 
 
 <?php
-if (isset($_POST['addFav'])) {
+if (isset($_POST['addFav']) AND $_POST['addFav']=='envoyer') {
     updateFavorites($id);
 }
-if (isset($_POST['note'])) {
+if (isset($_POST['noter']) AND isset($_POST['note']) AND  $_POST['noter']=='valider') {
     updateNoteSerie($id, $_POST['note']);
 }
 ?>
