@@ -1,5 +1,6 @@
 [
 	{
+		"id": 1,
 		"titre":"Fairy Tail",
 		"image": "images/fairy_tail.jpg",
 		"type":"Manga",
@@ -21,6 +22,7 @@
 		"favoris": 1
 	},
 	{
+		"id": 2,
 		"titre":"Game of Thrones",
 		"image": "images/got.jpg",
 		"type":[
@@ -47,6 +49,7 @@
 		"favoris": 1
 	},
 	{
+		"id": 3,
 		"titre":"Vikings",
 		"image": "images/vikings.jpg",
 		"type":[

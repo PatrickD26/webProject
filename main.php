@@ -8,6 +8,8 @@
     session_start();
     //récupération de la liste des séries
     include_once("liste_serie.php");
+
+    getListeSeries();
     ?>
     <link rel="stylesheet" href="main.css"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">

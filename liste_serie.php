@@ -3,9 +3,12 @@
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
-$file = file_get_contents('liste_serie.json');
 
-$jsons = json_decode($file, true);
+function getListeSeries() {
+    $file = file_get_contents('liste_serie.json');
 
-$_SESSION["shows_json"]=$jsons;
+    $jsons = json_decode($file, true);
+
+    $_SESSION["shows_json"]=$jsons;
+}
 ?>
