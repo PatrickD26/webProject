@@ -83,5 +83,84 @@
     ],
     "note": 5,
     "favoris": 0
+  },
+  {
+    "titre": "Fairy Tail",
+    "img": "images/fairy_tail.jpg",
+    "type": "Manga",
+    "resume": "Lucy est une jeune magicienne de 16 ans à la recherche d'une guilde. Fan de magie depuis sa plus tendre enfance, elle lisait régulièrement des magazines sur les guildes, et a finalement voulu en intégrer une. Dans ce but, elle est devenue magicienne des clés stellaires, un mage capable d'appeler des esprits avec qui il a conclu un pacte au moyen de clés. Lucy rêverait d'intégrer la glorieuse guilde de Fairy Tail, mais elle n'a aucune idée de leurs méthodes de recrutement, et a un peu peur face à la réputation de la guilde à problème qu'elle traîne. Mais bien vite, elle laisse ses remords de côté lorsqu'un mage du feu prétend être de la guilde et l'invite à bord de son bateau. Ce n'est qu'un imposteur, mais elle est sauvée par Natsu, un jeune homme qu'elle avait rencontré peu avant et qui, lui, est un véritable membre de la guilde.",
+    "episodes": [
+      {
+        "saison": "Saison 1",
+        "episodes": [
+          "Arc Macao (épisodes 1 et 2)",
+          "Arc Day Break (épisodes 3 et 4)",
+          "Arc Eisen Wald (épisodes 5 à 9)",
+          "Arc Île de Galuna (épisodes 10 à 18)",
+          "Arc Phantom Lord (épisodes 19 à 29)",
+          "Arc Loki (épisodes 30 à 32)",
+          "Arc Tour du Paradis (épisodes 33 à 41)",
+          "Arc Bataille de Fairy Tail (épisodes 42 à 48)"
+        ]
+      }
+    ],
+    "note": 4,
+    "favoris": 1
+  },
+  {
+    "titre": "Game of Thrones",
+    "img": "images/got.jpg",
+    "type": [
+      "Médiéval",
+      "Fantastique"
+    ],
+    "resume": "Sur le continent de Westeros, le roi Robert Baratheon gouverne le Royaume des Sept Couronnes depuis plus de dix-sept ans, à la suite de la rébellion qu'il a menée contre le « roi fou » Aerys II Targaryen. Jon Arryn, époux de la sœur de Lady Catelyn Stark, Lady Arryn, son guide et principal conseiller, vient de décéder, et le roi part alors dans le nord du royaume demander à son vieil ami Eddard « Ned » Stark de remplacer leur regretté mentor au poste de Main du roi. Ned, seigneur suzerain du nord depuis Winterfell et de la maison Stark, est peu désireux de quitter ses terres. Mais il accepte à contre-cœur de partir pour la capitale Port-Réal avec ses deux filles, Sansa et Arya. Juste avant leur départ pour le sud, Bran, l'un des jeunes fils d'Eddard, est poussé de l'une des tours de Winterfell après avoir été témoin de la liaison incestueuse entre la reine Cersei Baratheon et son frère jumeau, Jaime Lannister. Leur frère, Tyrion Lannister, surnommé « le gnome », est alors accusé du crime par Lady Catelyn Stark.",
+    "episodes": [
+      {
+        "saison": "Saison 1",
+        "episodes": [
+          "Winter Is Coming",
+          "The Kingsroad",
+          "Lord Snow",
+          "Cripples, Bastards and Broken Things",
+          "The Wolf and the Lion",
+          "A Golden Crown",
+          "You Win or You Die",
+          "The Pointy End",
+          "Baelor",
+          "Fire and Blood"
+        ]
+      }
+    ],
+    "note": 5,
+    "favoris": 1
+  },
+  {
+    "titre": "Vikings",
+    "img": "images/vikings.jpg",
+    "type": [
+      "Dramatique",
+      "Histoire",
+      "Guerre"
+    ],
+    "resume": "Les exploits d'un groupe de Vikings mené par Ragnar Lothbrok, l'un des vikings les plus populaires de son époque et au destin semi-légendaire, sont narrés par la série. Ragnar serait d'origine norvégienne et suédoise, selon les sources. Il est supposé avoir unifié les clans vikings en un royaume aux frontières indéterminées à la fin du viiie siècle (le roi Ecbert mentionne avoir vécu à la cour du roi Charlemagne, sacré empereur en l'an 800). Mais il est surtout connu pour avoir été le promoteur des tout premiers raids vikings en terres chrétiennes, saxonnes, franques ou celtiques. Simple fermier, homme lige du jarl Haraldson, il se rebelle contre les choix stratégiques de son suzerain. Au lieu d'attaquer les païens slaves et baltes de la Baltique, il décide de se lancer dans l'attaque des riches terres de l'Ouest, là où les monastères regorgent de trésors qui n'attendent que d'être pillés par des guerriers ambitieux. Clandestinement, Ragnar va monter sa propre expédition et sa réussite changera le destin des Vikings comme celui des royaumes chrétiens du sud, que le simple nom de « Vikings » terrorisera pendant plus de deux siècles.",
+    "episodes": [
+      {
+        "saison": "Saison 1",
+        "episodes": [
+          "Rites of Passage",
+          "Wrath of the Northmen",
+          "Dispossessed",
+          "Trial",
+          "Raid",
+          "Burial of the Dead",
+          "A King's Ransom",
+          "Sacrifice",
+          "All Change"
+        ]
+      }
+    ],
+    "note": 5,
+    "favoris": 0
   }
 ]
