@@ -58,9 +58,11 @@ getSerieByType($id , $serie["type"]);
         <table class="detail">
             <tr>
                 <form method="post">
-                    <?php if($serie['favoris'] === 0):  ?>
+                    <?php
+                    if($serie['favoris'] === 0):  ?>
                         <button type="submit" name="addFav" value="envoyer">Ajouter un favori</button>
-                    <?php elseif ($serie['favoris'] === 1): ?>
+                    <?php
+                    elseif ($serie['favoris'] === 1): ?>
                         <button type="submit" name="addFav" value="envoyer">Enlever un favori</button>
                     <?php endif ?>
                     <br>
