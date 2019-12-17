@@ -1,7 +1,9 @@
 [
   {
+	"id":1,
     "titre": "Fairy Tail",
-    "img": "images/fairy_tail.jpg",
+	"img": "images/fairy_tail.jpg",
+	"imgDetail": "images/fairy_tail_detail",
     "type": "Manga",
     "resume": "Lucy est une jeune magicienne de 16 ans à la recherche d'une guilde. Fan de magie depuis sa plus tendre enfance, elle lisait régulièrement des magazines sur les guildes, et a finalement voulu en intégrer une. Dans ce but, elle est devenue magicienne des clés stellaires, un mage capable d'appeler des esprits avec qui il a conclu un pacte au moyen de clés. Lucy rêverait d'intégrer la glorieuse guilde de Fairy Tail, mais elle n'a aucune idée de leurs méthodes de recrutement, et a un peu peur face à la réputation de la guilde à problème qu'elle traîne. Mais bien vite, elle laisse ses remords de côté lorsqu'un mage du feu prétend être de la guilde et l'invite à bord de son bateau. Ce n'est qu'un imposteur, mais elle est sauvée par Natsu, un jeune homme qu'elle avait rencontré peu avant et qui, lui, est un véritable membre de la guilde.",
     "episodes": [
@@ -23,8 +25,10 @@
     "favoris": 1
   },
   {
+	"id":2,
     "titre": "Game of Thrones",
-    "img": "images/got.jpg",
+	"img": "images/got.jpg",
+	"imgDetail": "images/fairy_tail_detail",
     "type": [
       "Médiéval",
       "Fantastique"
@@ -51,8 +55,10 @@
     "favoris": 1
   },
   {
+	"id":3,
     "titre": "Vikings",
-    "img": "images/vikings.jpg",
+	"img": "images/vikings.jpg",
+	"imgDetail": "images/fairy_tail_detail",
     "type": [
       "Dramatique",
       "Histoire",

@@ -48,7 +48,7 @@
         </div>
     </header>
     <?php
-    foreach ($_SESSION["shows_json"] as $value):
+    foreach ($_SESSION["shows_favorites_json"] as $value):
         ?>
         <tr class="showDescription">
             <td><img src="<?php echo $value['img']; ?>" alt=""></td>

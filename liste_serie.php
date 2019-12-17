@@ -11,6 +11,7 @@ function getListeSeries() {
 
     $jsons = json_decode($file, true);
     
+    $_SESSION["shows_all"] = $jsons;
     $_SESSION["shows_favorites_json"] = [];
     $_SESSION["shows_json"] = [];
 
@@ -26,6 +27,4 @@ function getListeSeries() {
         }
     }
 }
-
-
 ?>

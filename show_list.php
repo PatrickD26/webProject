@@ -50,10 +50,11 @@
     <?php
     foreach ($_SESSION["shows_json"] as $value):
         ?>
-        <tr class="showDescription">
-            <td><img src="<?php echo $value['img']; ?>" alt=""></td>
-            <td class="showLabel"><?php echo $value['titre']; ?></td>
-        </tr>
+            <tr class="showDescription" onclick="window.location='detail_serie.php?id=<?php echo $value['id'] ?>'">
+                <td><img src="<?php echo $value['img']; ?>" alt=""></td>
+                <td class="showLabel"><?php echo $value['titre']; ?></td> 
+            
+            </tr>
     <?php endforeach; ?>
 
 </table>
