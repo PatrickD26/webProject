@@ -1,84 +1,156 @@
-[{
-		"id": 1,
-		"titre": "Fairy Tail",
-		"img": "images\/fairy_tail.jpg",
-		"imgDetail": "images\/fairy_tail_detail.jpg",
-		"type": "Manga",
-		"resume": "Lucy est une jeune magicienne de 16 ans \u00e0 la recherche d'une guilde. Fan de magie depuis sa plus tendre enfance, elle lisait r\u00e9guli\u00e8rement des magazines sur les guildes, et a finalement voulu en int\u00e9grer une. Dans ce but, elle est devenue magicienne des cl\u00e9s stellaires, un mage capable d'appeler des esprits avec qui il a conclu un pacte au moyen de cl\u00e9s. Lucy r\u00eaverait d'int\u00e9grer la glorieuse guilde de Fairy Tail, mais elle n'a aucune id\u00e9e de leurs m\u00e9thodes de recrutement, et a un peu peur face \u00e0 la r\u00e9putation de la guilde \u00e0 probl\u00e8me qu'elle tra\u00eene. Mais bien vite, elle laisse ses remords de c\u00f4t\u00e9 lorsqu'un mage du feu pr\u00e9tend \u00eatre de la guilde et l'invite \u00e0 bord de son bateau. Ce n'est qu'un imposteur, mais elle est sauv\u00e9e par Natsu, un jeune homme qu'elle avait rencontr\u00e9 peu avant et qui, lui, est un v\u00e9ritable membre de la guilde.",
-		"episodes": [{
-				"saison": "Saison 1",
-				"episodes": ["Arc Macao (\u00e9pisodes 1 et 2)", "Arc Day Break (\u00e9pisodes 3 et 4)", "Arc Eisen Wald (\u00e9pisodes 5 \u00e0 9)", "Arc \u00cele de Galuna (\u00e9pisodes 10 \u00e0 18)", "Arc Phantom Lord (\u00e9pisodes 19 \u00e0 29)", "Arc Loki (\u00e9pisodes 30 \u00e0 32)", "Arc Tour du Paradis (\u00e9pisodes 33 \u00e0 41)", "Arc Bataille de Fairy Tail (\u00e9pisodes 42 \u00e0 48)"]
-			}
-		],
-		"note": "5",
-		"favoris": 0
-	}, {
-		"id": 2,
-		"titre": "Game of Thrones",
-		"img": "images\/got.jpg",
-		"imgDetail": "images\/fairy_tail_detail",
-		"type": "M\u00e9di\u00e9val",
-		"resume": "Sur le continent de Westeros, le roi Robert Baratheon gouverne le Royaume des Sept Couronnes depuis plus de dix-sept ans, \u00e0 la suite de la r\u00e9bellion qu'il a men\u00e9e contre le \u00ab roi fou \u00bb Aerys II Targaryen. Jon Arryn, \u00e9poux de la s\u0153ur de Lady Catelyn Stark, Lady Arryn, son guide et principal conseiller, vient de d\u00e9c\u00e9der, et le roi part alors dans le nord du royaume demander \u00e0 son vieil ami Eddard \u00ab Ned \u00bb Stark de remplacer leur regrett\u00e9 mentor au poste de Main du roi. Ned, seigneur suzerain du nord depuis Winterfell et de la maison Stark, est peu d\u00e9sireux de quitter ses terres. Mais il accepte \u00e0 contre-c\u0153ur de partir pour la capitale Port-R\u00e9al avec ses deux filles, Sansa et Arya. Juste avant leur d\u00e9part pour le sud, Bran, l'un des jeunes fils d'Eddard, est pouss\u00e9 de l'une des tours de Winterfell apr\u00e8s avoir \u00e9t\u00e9 t\u00e9moin de la liaison incestueuse entre la reine Cersei Baratheon et son fr\u00e8re jumeau, Jaime Lannister. Leur fr\u00e8re, Tyrion Lannister, surnomm\u00e9 \u00ab le gnome \u00bb, est alors accus\u00e9 du crime par Lady Catelyn Stark.",
-		"episodes": [{
-				"saison": "Saison 1",
-				"episodes": ["Winter Is Coming", "The Kingsroad", "Lord Snow", "Cripples, Bastards and Broken Things", "The Wolf and the Lion", "A Golden Crown", "You Win or You Die", "The Pointy End", "Baelor", "Fire and Blood"]
-			}
-		],
-		"note": 5,
-		"favoris": 1
-	}, {
-		"id": 3,
-		"titre": "Vikings",
-		"img": "images\/vikings.jpg",
-		"imgDetail": "images\/vikings_detail.jpg",
-		"type": "Histoire",
-		"resume": "Les exploits d'un groupe de Vikings men\u00e9 par Ragnar Lothbrok, l'un des vikings les plus populaires de son \u00e9poque et au destin semi-l\u00e9gendaire, sont narr\u00e9s par la s\u00e9rie. Ragnar serait d'origine norv\u00e9gienne et su\u00e9doise, selon les sources. Il est suppos\u00e9 avoir unifi\u00e9 les clans vikings en un royaume aux fronti\u00e8res ind\u00e9termin\u00e9es \u00e0 la fin du viiie si\u00e8cle (le roi Ecbert mentionne avoir v\u00e9cu \u00e0 la cour du roi Charlemagne, sacr\u00e9 empereur en l'an 800). Mais il est surtout connu pour avoir \u00e9t\u00e9 le promoteur des tout premiers raids vikings en terres chr\u00e9tiennes, saxonnes, franques ou celtiques. Simple fermier, homme lige du jarl Haraldson, il se rebelle contre les choix strat\u00e9giques de son suzerain. Au lieu d'attaquer les pa\u00efens slaves et baltes de la Baltique, il d\u00e9cide de se lancer dans l'attaque des riches terres de l'Ouest, l\u00e0 o\u00f9 les monast\u00e8res regorgent de tr\u00e9sors qui n'attendent que d'\u00eatre pill\u00e9s par des guerriers ambitieux. Clandestinement, Ragnar va monter sa propre exp\u00e9dition et sa r\u00e9ussite changera le destin des Vikings comme celui des royaumes chr\u00e9tiens du sud, que le simple nom de \u00ab Vikings \u00bb terrorisera pendant plus de deux si\u00e8cles.",
-		"episodes": [{
-				"saison": "Saison 1",
-				"episodes": ["Rites of Passage", "Wrath of the Northmen", "Dispossessed", "Trial", "Raid", "Burial of the Dead", "A King's Ransom", "Sacrifice", "All Change"]
-			}
-		],
-		"note": 5,
-		"favoris": 0
-	}, {
-		"id": 4,
-		"titre": "Fairy Tail",
-		"img": "images\/fairy_tail.jpg",
-		"type": "Manga",
-		"resume": "Lucy est une jeune magicienne de 16 ans \u00e0 la recherche d'une guilde. Fan de magie depuis sa plus tendre enfance, elle lisait r\u00e9guli\u00e8rement des magazines sur les guildes, et a finalement voulu en int\u00e9grer une. Dans ce but, elle est devenue magicienne des cl\u00e9s stellaires, un mage capable d'appeler des esprits avec qui il a conclu un pacte au moyen de cl\u00e9s. Lucy r\u00eaverait d'int\u00e9grer la glorieuse guilde de Fairy Tail, mais elle n'a aucune id\u00e9e de leurs m\u00e9thodes de recrutement, et a un peu peur face \u00e0 la r\u00e9putation de la guilde \u00e0 probl\u00e8me qu'elle tra\u00eene. Mais bien vite, elle laisse ses remords de c\u00f4t\u00e9 lorsqu'un mage du feu pr\u00e9tend \u00eatre de la guilde et l'invite \u00e0 bord de son bateau. Ce n'est qu'un imposteur, mais elle est sauv\u00e9e par Natsu, un jeune homme qu'elle avait rencontr\u00e9 peu avant et qui, lui, est un v\u00e9ritable membre de la guilde.",
-		"episodes": [{
-				"saison": "Saison 1",
-				"episodes": ["Arc Macao (\u00e9pisodes 1 et 2)", "Arc Day Break (\u00e9pisodes 3 et 4)", "Arc Eisen Wald (\u00e9pisodes 5 \u00e0 9)", "Arc \u00cele de Galuna (\u00e9pisodes 10 \u00e0 18)", "Arc Phantom Lord (\u00e9pisodes 19 \u00e0 29)", "Arc Loki (\u00e9pisodes 30 \u00e0 32)", "Arc Tour du Paradis (\u00e9pisodes 33 \u00e0 41)", "Arc Bataille de Fairy Tail (\u00e9pisodes 42 \u00e0 48)"]
-			}
-		],
-		"note": 4,
-		"favoris": 1
-	}, {
-		"id": 5,
-		"titre": "Game of Thrones",
-		"img": "images\/got.jpg",
-		"type": "M\u00e9di\u00e9val",
-		"resume": "Sur le continent de Westeros, le roi Robert Baratheon gouverne le Royaume des Sept Couronnes depuis plus de dix-sept ans, \u00e0 la suite de la r\u00e9bellion qu'il a men\u00e9e contre le \u00ab roi fou \u00bb Aerys II Targaryen. Jon Arryn, \u00e9poux de la s\u0153ur de Lady Catelyn Stark, Lady Arryn, son guide et principal conseiller, vient de d\u00e9c\u00e9der, et le roi part alors dans le nord du royaume demander \u00e0 son vieil ami Eddard \u00ab Ned \u00bb Stark de remplacer leur regrett\u00e9 mentor au poste de Main du roi. Ned, seigneur suzerain du nord depuis Winterfell et de la maison Stark, est peu d\u00e9sireux de quitter ses terres. Mais il accepte \u00e0 contre-c\u0153ur de partir pour la capitale Port-R\u00e9al avec ses deux filles, Sansa et Arya. Juste avant leur d\u00e9part pour le sud, Bran, l'un des jeunes fils d'Eddard, est pouss\u00e9 de l'une des tours de Winterfell apr\u00e8s avoir \u00e9t\u00e9 t\u00e9moin de la liaison incestueuse entre la reine Cersei Baratheon et son fr\u00e8re jumeau, Jaime Lannister. Leur fr\u00e8re, Tyrion Lannister, surnomm\u00e9 \u00ab le gnome \u00bb, est alors accus\u00e9 du crime par Lady Catelyn Stark.",
-		"episodes": [{
-				"saison": "Saison 1",
-				"episodes": ["Winter Is Coming", "The Kingsroad", "Lord Snow", "Cripples, Bastards and Broken Things", "The Wolf and the Lion", "A Golden Crown", "You Win or You Die", "The Pointy End", "Baelor", "Fire and Blood"]
-			}
-		],
-		"note": 5,
-		"favoris": 1
-	}, {
-		"id": 6,
-		"titre": "Vikings",
-		"img": "images\/vikings.jpg",
-		"imgDetail": "images\/vikings_detail.jpg",
-		"type": "Histoire",
-		"resume": "Les exploits d'un groupe de Vikings men\u00e9 par Ragnar Lothbrok, l'un des vikings les plus populaires de son \u00e9poque et au destin semi-l\u00e9gendaire, sont narr\u00e9s par la s\u00e9rie. Ragnar serait d'origine norv\u00e9gienne et su\u00e9doise, selon les sources. Il est suppos\u00e9 avoir unifi\u00e9 les clans vikings en un royaume aux fronti\u00e8res ind\u00e9termin\u00e9es \u00e0 la fin du viiie si\u00e8cle (le roi Ecbert mentionne avoir v\u00e9cu \u00e0 la cour du roi Charlemagne, sacr\u00e9 empereur en l'an 800). Mais il est surtout connu pour avoir \u00e9t\u00e9 le promoteur des tout premiers raids vikings en terres chr\u00e9tiennes, saxonnes, franques ou celtiques. Simple fermier, homme lige du jarl Haraldson, il se rebelle contre les choix strat\u00e9giques de son suzerain. Au lieu d'attaquer les pa\u00efens slaves et baltes de la Baltique, il d\u00e9cide de se lancer dans l'attaque des riches terres de l'Ouest, l\u00e0 o\u00f9 les monast\u00e8res regorgent de tr\u00e9sors qui n'attendent que d'\u00eatre pill\u00e9s par des guerriers ambitieux. Clandestinement, Ragnar va monter sa propre exp\u00e9dition et sa r\u00e9ussite changera le destin des Vikings comme celui des royaumes chr\u00e9tiens du sud, que le simple nom de \u00ab Vikings \u00bb terrorisera pendant plus de deux si\u00e8cles.",
-		"episodes": [{
-				"saison": "Saison 1",
-				"episodes": ["Rites of Passage", "Wrath of the Northmen", "Dispossessed", "Trial", "Raid", "Burial of the Dead", "A King's Ransom", "Sacrifice", "All Change"]
-			}
-		],
-		"note": 5,
-		"favoris": 0
-	}
+[
+  {
+    "id": 1,
+    "titre": "Fairy Tail",
+    "img": "images\/fairy_tail.jpg",
+    "imgDetail": "images\/fairy_tail_detail.jpg",
+    "type": "Manga",
+    "resume": "Lucy est une jeune magicienne de 16 ans \u00e0 la recherche d'une guilde. Fan de magie depuis sa plus tendre enfance, elle lisait r\u00e9guli\u00e8rement des magazines sur les guildes, et a finalement voulu en int\u00e9grer une. Dans ce but, elle est devenue magicienne des cl\u00e9s stellaires, un mage capable d'appeler des esprits avec qui il a conclu un pacte au moyen de cl\u00e9s. Lucy r\u00eaverait d'int\u00e9grer la glorieuse guilde de Fairy Tail, mais elle n'a aucune id\u00e9e de leurs m\u00e9thodes de recrutement, et a un peu peur face \u00e0 la r\u00e9putation de la guilde \u00e0 probl\u00e8me qu'elle tra\u00eene. Mais bien vite, elle laisse ses remords de c\u00f4t\u00e9 lorsqu'un mage du feu pr\u00e9tend \u00eatre de la guilde et l'invite \u00e0 bord de son bateau. Ce n'est qu'un imposteur, mais elle est sauv\u00e9e par Natsu, un jeune homme qu'elle avait rencontr\u00e9 peu avant et qui, lui, est un v\u00e9ritable membre de la guilde.",
+    "episodes": [
+      {
+        "saison": "Saison 1",
+        "episodes": [
+          "Arc Macao (\u00e9pisodes 1 et 2)",
+          "Arc Day Break (\u00e9pisodes 3 et 4)",
+          "Arc Eisen Wald (\u00e9pisodes 5 \u00e0 9)",
+          "Arc \u00cele de Galuna (\u00e9pisodes 10 \u00e0 18)",
+          "Arc Phantom Lord (\u00e9pisodes 19 \u00e0 29)",
+          "Arc Loki (\u00e9pisodes 30 \u00e0 32)",
+          "Arc Tour du Paradis (\u00e9pisodes 33 \u00e0 41)",
+          "Arc Bataille de Fairy Tail (\u00e9pisodes 42 \u00e0 48)"
+        ]
+      }
+    ],
+    "note": "5",
+    "favoris": 0
+  },
+  {
+    "id": 2,
+    "titre": "Game of Thrones",
+    "img": "images\/got.jpg",
+    "imgDetail": "images\/fairy_tail_detail",
+    "type": "M\u00e9di\u00e9val",
+    "resume": "Sur le continent de Westeros, le roi Robert Baratheon gouverne le Royaume des Sept Couronnes depuis plus de dix-sept ans, \u00e0 la suite de la r\u00e9bellion qu'il a men\u00e9e contre le \u00ab roi fou \u00bb Aerys II Targaryen. Jon Arryn, \u00e9poux de la s\u0153ur de Lady Catelyn Stark, Lady Arryn, son guide et principal conseiller, vient de d\u00e9c\u00e9der, et le roi part alors dans le nord du royaume demander \u00e0 son vieil ami Eddard \u00ab Ned \u00bb Stark de remplacer leur regrett\u00e9 mentor au poste de Main du roi. Ned, seigneur suzerain du nord depuis Winterfell et de la maison Stark, est peu d\u00e9sireux de quitter ses terres. Mais il accepte \u00e0 contre-c\u0153ur de partir pour la capitale Port-R\u00e9al avec ses deux filles, Sansa et Arya. Juste avant leur d\u00e9part pour le sud, Bran, l'un des jeunes fils d'Eddard, est pouss\u00e9 de l'une des tours de Winterfell apr\u00e8s avoir \u00e9t\u00e9 t\u00e9moin de la liaison incestueuse entre la reine Cersei Baratheon et son fr\u00e8re jumeau, Jaime Lannister. Leur fr\u00e8re, Tyrion Lannister, surnomm\u00e9 \u00ab le gnome \u00bb, est alors accus\u00e9 du crime par Lady Catelyn Stark.",
+    "episodes": [
+      {
+        "saison": "Saison 1",
+        "episodes": [
+          "Winter Is Coming",
+          "The Kingsroad",
+          "Lord Snow",
+          "Cripples, Bastards and Broken Things",
+          "The Wolf and the Lion",
+          "A Golden Crown",
+          "You Win or You Die",
+          "The Pointy End",
+          "Baelor",
+          "Fire and Blood"
+        ]
+      }
+    ],
+    "note": "",
+    "favoris": 1
+  },
+  {
+    "id": 3,
+    "titre": "Vikings",
+    "img": "images\/vikings.jpg",
+    "imgDetail": "images\/vikings_detail.jpg",
+    "type": "Histoire",
+    "resume": "Les exploits d'un groupe de Vikings men\u00e9 par Ragnar Lothbrok, l'un des vikings les plus populaires de son \u00e9poque et au destin semi-l\u00e9gendaire, sont narr\u00e9s par la s\u00e9rie. Ragnar serait d'origine norv\u00e9gienne et su\u00e9doise, selon les sources. Il est suppos\u00e9 avoir unifi\u00e9 les clans vikings en un royaume aux fronti\u00e8res ind\u00e9termin\u00e9es \u00e0 la fin du viiie si\u00e8cle (le roi Ecbert mentionne avoir v\u00e9cu \u00e0 la cour du roi Charlemagne, sacr\u00e9 empereur en l'an 800). Mais il est surtout connu pour avoir \u00e9t\u00e9 le promoteur des tout premiers raids vikings en terres chr\u00e9tiennes, saxonnes, franques ou celtiques. Simple fermier, homme lige du jarl Haraldson, il se rebelle contre les choix strat\u00e9giques de son suzerain. Au lieu d'attaquer les pa\u00efens slaves et baltes de la Baltique, il d\u00e9cide de se lancer dans l'attaque des riches terres de l'Ouest, l\u00e0 o\u00f9 les monast\u00e8res regorgent de tr\u00e9sors qui n'attendent que d'\u00eatre pill\u00e9s par des guerriers ambitieux. Clandestinement, Ragnar va monter sa propre exp\u00e9dition et sa r\u00e9ussite changera le destin des Vikings comme celui des royaumes chr\u00e9tiens du sud, que le simple nom de \u00ab Vikings \u00bb terrorisera pendant plus de deux si\u00e8cles.",
+    "episodes": [
+      {
+        "saison": "Saison 1",
+        "episodes": [
+          "Rites of Passage",
+          "Wrath of the Northmen",
+          "Dispossessed",
+          "Trial",
+          "Raid",
+          "Burial of the Dead",
+          "A King's Ransom",
+          "Sacrifice",
+          "All Change"
+        ]
+      }
+    ],
+    "note": 5,
+    "favoris": 0
+  },
+  {
+    "id": 4,
+    "titre": "Fairy Tail",
+    "img": "images\/fairy_tail.jpg",
+    "type": "Manga",
+    "resume": "Lucy est une jeune magicienne de 16 ans \u00e0 la recherche d'une guilde. Fan de magie depuis sa plus tendre enfance, elle lisait r\u00e9guli\u00e8rement des magazines sur les guildes, et a finalement voulu en int\u00e9grer une. Dans ce but, elle est devenue magicienne des cl\u00e9s stellaires, un mage capable d'appeler des esprits avec qui il a conclu un pacte au moyen de cl\u00e9s. Lucy r\u00eaverait d'int\u00e9grer la glorieuse guilde de Fairy Tail, mais elle n'a aucune id\u00e9e de leurs m\u00e9thodes de recrutement, et a un peu peur face \u00e0 la r\u00e9putation de la guilde \u00e0 probl\u00e8me qu'elle tra\u00eene. Mais bien vite, elle laisse ses remords de c\u00f4t\u00e9 lorsqu'un mage du feu pr\u00e9tend \u00eatre de la guilde et l'invite \u00e0 bord de son bateau. Ce n'est qu'un imposteur, mais elle est sauv\u00e9e par Natsu, un jeune homme qu'elle avait rencontr\u00e9 peu avant et qui, lui, est un v\u00e9ritable membre de la guilde.",
+    "episodes": [
+      {
+        "saison": "Saison 1",
+        "episodes": [
+          "Arc Macao (\u00e9pisodes 1 et 2)",
+          "Arc Day Break (\u00e9pisodes 3 et 4)",
+          "Arc Eisen Wald (\u00e9pisodes 5 \u00e0 9)",
+          "Arc \u00cele de Galuna (\u00e9pisodes 10 \u00e0 18)",
+          "Arc Phantom Lord (\u00e9pisodes 19 \u00e0 29)",
+          "Arc Loki (\u00e9pisodes 30 \u00e0 32)",
+          "Arc Tour du Paradis (\u00e9pisodes 33 \u00e0 41)",
+          "Arc Bataille de Fairy Tail (\u00e9pisodes 42 \u00e0 48)"
+        ]
+      }
+    ],
+    "note": 4,
+    "favoris": 1
+  },
+  {
+    "id": 5,
+    "titre": "Game of Thrones",
+    "img": "images\/got.jpg",
+    "type": "M\u00e9di\u00e9val",
+    "resume": "Sur le continent de Westeros, le roi Robert Baratheon gouverne le Royaume des Sept Couronnes depuis plus de dix-sept ans, \u00e0 la suite de la r\u00e9bellion qu'il a men\u00e9e contre le \u00ab roi fou \u00bb Aerys II Targaryen. Jon Arryn, \u00e9poux de la s\u0153ur de Lady Catelyn Stark, Lady Arryn, son guide et principal conseiller, vient de d\u00e9c\u00e9der, et le roi part alors dans le nord du royaume demander \u00e0 son vieil ami Eddard \u00ab Ned \u00bb Stark de remplacer leur regrett\u00e9 mentor au poste de Main du roi. Ned, seigneur suzerain du nord depuis Winterfell et de la maison Stark, est peu d\u00e9sireux de quitter ses terres. Mais il accepte \u00e0 contre-c\u0153ur de partir pour la capitale Port-R\u00e9al avec ses deux filles, Sansa et Arya. Juste avant leur d\u00e9part pour le sud, Bran, l'un des jeunes fils d'Eddard, est pouss\u00e9 de l'une des tours de Winterfell apr\u00e8s avoir \u00e9t\u00e9 t\u00e9moin de la liaison incestueuse entre la reine Cersei Baratheon et son fr\u00e8re jumeau, Jaime Lannister. Leur fr\u00e8re, Tyrion Lannister, surnomm\u00e9 \u00ab le gnome \u00bb, est alors accus\u00e9 du crime par Lady Catelyn Stark.",
+    "episodes": [
+      {
+        "saison": "Saison 1",
+        "episodes": [
+          "Winter Is Coming",
+          "The Kingsroad",
+          "Lord Snow",
+          "Cripples, Bastards and Broken Things",
+          "The Wolf and the Lion",
+          "A Golden Crown",
+          "You Win or You Die",
+          "The Pointy End",
+          "Baelor",
+          "Fire and Blood"
+        ]
+      }
+    ],
+    "note": 5,
+    "favoris": 1
+  },
+  {
+    "id": 6,
+    "titre": "Vikings",
+    "img": "images\/vikings.jpg",
+    "imgDetail": "images\/vikings_detail.jpg",
+    "type": "Histoire",
+    "resume": "Les exploits d'un groupe de Vikings men\u00e9 par Ragnar Lothbrok, l'un des vikings les plus populaires de son \u00e9poque et au destin semi-l\u00e9gendaire, sont narr\u00e9s par la s\u00e9rie. Ragnar serait d'origine norv\u00e9gienne et su\u00e9doise, selon les sources. Il est suppos\u00e9 avoir unifi\u00e9 les clans vikings en un royaume aux fronti\u00e8res ind\u00e9termin\u00e9es \u00e0 la fin du viiie si\u00e8cle (le roi Ecbert mentionne avoir v\u00e9cu \u00e0 la cour du roi Charlemagne, sacr\u00e9 empereur en l'an 800). Mais il est surtout connu pour avoir \u00e9t\u00e9 le promoteur des tout premiers raids vikings en terres chr\u00e9tiennes, saxonnes, franques ou celtiques. Simple fermier, homme lige du jarl Haraldson, il se rebelle contre les choix strat\u00e9giques de son suzerain. Au lieu d'attaquer les pa\u00efens slaves et baltes de la Baltique, il d\u00e9cide de se lancer dans l'attaque des riches terres de l'Ouest, l\u00e0 o\u00f9 les monast\u00e8res regorgent de tr\u00e9sors qui n'attendent que d'\u00eatre pill\u00e9s par des guerriers ambitieux. Clandestinement, Ragnar va monter sa propre exp\u00e9dition et sa r\u00e9ussite changera le destin des Vikings comme celui des royaumes chr\u00e9tiens du sud, que le simple nom de \u00ab Vikings \u00bb terrorisera pendant plus de deux si\u00e8cles.",
+    "episodes": [
+      {
+        "saison": "Saison 1",
+        "episodes": [
+          "Rites of Passage",
+          "Wrath of the Northmen",
+          "Dispossessed",
+          "Trial",
+          "Raid",
+          "Burial of the Dead",
+          "A King's Ransom",
+          "Sacrifice",
+          "All Change"
+        ]
+      }
+    ],
+    "note": 5,
+    "favoris": 0
+  }
 ]
